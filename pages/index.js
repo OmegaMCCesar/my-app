@@ -1,7 +1,6 @@
 
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,14 +13,6 @@ export default function Home() {
      </h1>
      <img src='/Omega.ico' className={styles.imgLogo}/> 
     </div>  
-    <nav className={styles.nav}>
-     <Link href='/about'  className={styles.links}>
-      Sobre Nosotros
-      </Link>
-     <Link href='/services' className={styles.links}>
-      Servicios
-     </Link> 
-    </nav>
     </div>
   )
 }
