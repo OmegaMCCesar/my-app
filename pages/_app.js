@@ -19,8 +19,7 @@ export default function App({ Component, pageProps }) {
         <Link href='/'>
          Omega MC
         </Link>
-        </header>
-        <navigator className={styles.nav}>
+        <div className={styles.maves}>
         <Link href='/about'  className={styles.links}>
       Sobre Nosotros
       </Link>
@@ -34,7 +33,8 @@ export default function App({ Component, pageProps }) {
      <Link href='/electrodomesticos/electrodomesticos' className={styles.links}>Varios<GiBlender/></Link>
      <Link href='/refac' className={styles.links}>Refacciones<GiPuzzle/></Link>
      <Link href='/venta' className={styles.links}>Venta<MdPointOfSale/></Link>
-        </navigator>
+        </div>
+        </header>
   <Component {...pageProps} />
         <footer>
           <Link href='/about'>Sobre nosotros</Link>
