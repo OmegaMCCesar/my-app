@@ -107,6 +107,8 @@ header {
 
 footer{
   background-color: #094293;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media (prefers-color-scheme: dark) {

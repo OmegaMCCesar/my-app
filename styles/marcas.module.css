@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  width: 90vw;
+  height: 5vw;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 0.2vw solid black;
+  border-radius: 1vw;
+}
+
+.imagenes_logos{
+  width: 5vw;
+  height: 5vh;
+  margin-top: 1vw;
+}

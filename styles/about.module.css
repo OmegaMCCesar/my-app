@@ -1,0 +1,11 @@
+.container{
+  border: 0.2vw solid #094293;
+  border-radius: 1vw;
+  color: white;
+  background-color: #094293;
+  margin: 1vw;
+}
+
+.title{
+  color:white;
+}
