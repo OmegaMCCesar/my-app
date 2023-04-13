@@ -1,10 +1,11 @@
 import styles from '../styles/marcas.module.css'
+const lg = '/imagenes/LG.ico'
 
-const marcas = ['LG','Whirlpool','daewoo','mabe','easy','Samsung','Torrey','subzero']
+const marcas = [lg]
 
 const Marcas = () => {
   return <div className={styles.container}>
-   {marcas && marcas.map(m => <img src={`/imagenes/${m}.ico`} key={m} className={styles.imagenes_logos}/>)} 
+   {marcas && marcas.map(m => <img src={m} key={m} className={styles.imagenes_logos}/>)} 
   </div>
 }
 
