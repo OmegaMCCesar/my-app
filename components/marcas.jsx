@@ -1,7 +1,8 @@
 import styles from '../styles/marcas.module.css'
-const lg = '/imagenes/LG.ico'
+const lg = '/LG.ico';
+const mabe = '/mabe.ico'
 
-const marcas = [lg]
+const marcas = [lg, mabe]
 
 const Marcas = () => {
   return <div className={styles.container}>
