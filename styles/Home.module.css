@@ -43,6 +43,17 @@
   text-align: center;
 }
 
+.maves::-webkit-scrollbar {
+  width: 4vw;     /* Tamaño del scroll en vertical */
+  height: 4vh;    /* Tamaño del scroll en horizontal */
+}
+
+.maves::-webkit-scrollbar-thumb {
+  background: #170b66;
+  border-radius: 1vh;
+}
+
+
 .ico{
   margin:0.2vw;
   width: 2.4vw;
@@ -68,15 +79,38 @@
   color: rgb(255, 255, 255);
 }
 
+.marcas{
+  margin-top: 2vh;
+}
+
 @media screen and (max-width:800px){
+
+.container_logo_name{
+  display: flex;
+  flex-direction: column;
+}
+
+.marcas{
+  margin: 1vh;
+  width: 98%;
+  height: 20vh;
+}
+
+.imgLogo{
+  width: 100%;
+  border: 0.2vw solid #094293;
+  border-radius: 1vh;
+  margin: 1vh;
+}
+
 .links{
   flex-wrap: wrap;
   align-content: center;
   height: 2vh;
-  font-size: 3vh;
-  width: 65%;
+  font-size: 5vh;
+  width: 85%;
   align-items: center;
-  margin: 1vh;
+  margin: 1vh 0 3vh 0;
 }
 
 .maves{
@@ -85,10 +119,11 @@
   flex-direction: column;
   overflow-y: scroll;
   align-items: center;
-  height: 4vh;
-  width: 70%;
+  height: 8vh;
+  width: 90%;
   text-align: center;
   justify-content: start;
 }
+
 
 }

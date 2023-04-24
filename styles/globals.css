@@ -41,5 +41,11 @@ footer{
     flex-direction: column;
     align-items: center;
   }
+
+
+ a{
+    font-size: 6vh;
+  }
+
 }
 

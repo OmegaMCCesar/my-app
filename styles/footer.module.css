@@ -1,7 +1,12 @@
 .icon{
   border-radius: 0.2vw;
   width: 2vw;
+  height: 7vh;
   margin-right: 0.4vw;
+}
+
+.sn{
+  font-size: 3vh;
 }
 
 .whats{
@@ -9,4 +14,17 @@
   flex-direction: row;
   color: white;
   padding: 0.2vw;
+}
+
+@media screen and (max-width:800px){
+  .icon{
+    height: 3vh;
+    width: 6vw;
+    margin-top: 2.2vh;
+  }
+  .sn{
+    height: 4vh;
+    width: 22vh;
+    font-size: 2vh;
+  }
 }

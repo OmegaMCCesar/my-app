@@ -4,7 +4,7 @@
   height: 5vw;
   justify-content: space-around;
   flex-wrap: wrap;
-  border: 0.2vw solid black;
+  border: 0.2vw solid #094293;
   border-radius: 1vw;
 }
 
@@ -12,4 +12,19 @@
   width: 5vw;
   height: 5vh;
   margin-top: 1vw;
+}
+
+@media screen and (max-width:800px) {
+  .container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: space-around;
+    background-color:#ffffff;
+  }
+
+  .imagenes_logos{
+    width: 15%;
+    margin: 2vh;
+  }
 }

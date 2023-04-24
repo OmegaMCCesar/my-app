@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
         </header>
   <Component {...pageProps} />
         <footer>
-          <Link href='/about'>Sobre nosotros</Link>
+          <Link href='/about' className={styles.sn}>Sobre nosotros</Link>
           <div className={styles.whats}>
             <img src='/whats.ico' className={styles.icon}/>
             <h3>56 32 89 02 91</h3>
