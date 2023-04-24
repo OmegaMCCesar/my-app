@@ -68,3 +68,27 @@
   color: rgb(255, 255, 255);
 }
 
+@media screen and (max-width:800px){
+.links{
+  flex-wrap: wrap;
+  align-content: center;
+  height: 2vh;
+  font-size: 3vh;
+  width: 65%;
+  align-items: center;
+  margin: 1vh;
+}
+
+.maves{
+  border: 0.2vh solid white;
+  border-radius: 1vh;
+  flex-direction: column;
+  overflow-y: scroll;
+  align-items: center;
+  height: 4vh;
+  width: 70%;
+  text-align: center;
+  justify-content: start;
+}
+
+}

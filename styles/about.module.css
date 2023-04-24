@@ -1,11 +1,26 @@
+.principal_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container{
   border: 0.2vw solid #094293;
   border-radius: 1vw;
   color: white;
   background-color: #094293;
   margin: 1vw;
+  height: 15vh;
 }
 
 .title{
   color:white;
+}
+
+.ico{
+  border: 0.8vh solid #094293;
+  border-radius: 5vh;
+  width: 25vw;
+  margin-bottom: 2vh;
 }

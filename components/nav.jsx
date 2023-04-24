@@ -7,13 +7,9 @@ import {GiWashingMachine,GiThermometerCold,GiBlender,GiPuzzle} from 'react-icons
 
 const Navbar = () => {
   return  <div className={styles.maves}>
-  <Link href='/about'  className={styles.links}>
-Sobre Nosotros
-</Link>
-<img src='/Omega.ico' className={styles.ico}/>
-<Link href='/services' className={styles.links}>
-Servicios <FaTools />
-</Link> 
+    
+<Link href='/about'  className={styles.links}>Sobre Nosotros<img src='/Omega.ico' className={styles.ico}/></Link>
+<Link href='/services' className={styles.links}>Servicios <FaTools /></Link> 
 <Link href='/refrigeracion' className={styles.links}>Refrigeracion<BiFridge/></Link>
 <Link href='/lavado' className={styles.links}>Lavado<GiWashingMachine/></Link>
 <Link href='/aire/aire' className={styles.links}>Air Acon<GiThermometerCold/></Link>
