@@ -23,8 +23,14 @@ export default function App({ Component, pageProps }) {
         <footer>
           <Link href='/about' className={styles.sn}>Sobre nosotros</Link>
           <div className={styles.whats}>
+            <div className={styles.wnumero}>
             <img src='/whats.ico' className={styles.icon}/>
             <h3>56 32 89 02 91</h3>
+            </div>
+            <div className={styles.wnumero}>
+            <img src='/whats.ico' className={styles.icon}/>
+             <h3>56 18 80 19 42</h3>
+            </div>
           </div>
         </footer> 
   </>

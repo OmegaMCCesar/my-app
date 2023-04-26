@@ -2,6 +2,7 @@
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Marcas from '@/components/marcas'
+import Cuerpo from '@/components/cuerpo'
 
 
 
@@ -18,7 +19,8 @@ export default function Home() {
       Omega MC
      </h1>
      <img src='/Omega.ico' className={styles.imgLogo}/> 
-    </div>  
+    </div>
+    <Cuerpo />  
     </div>
   )
 }

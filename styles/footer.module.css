@@ -9,9 +9,13 @@
   font-size: 3vh;
 }
 
+.wnumero{
+  display: flex;
+}
+
 .whats{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: white;
   padding: 0.2vw;
 }
