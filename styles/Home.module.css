@@ -83,7 +83,7 @@
   margin-top: 2vh;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){
 
 .container_logo_name{
   display: flex;

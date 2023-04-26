@@ -14,7 +14,7 @@
   margin-top: 1vw;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
   .container{
     display: flex;
     width: 100%;

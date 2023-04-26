@@ -20,7 +20,7 @@
   padding: 0.2vw;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){
   .icon{
     height: 3vh;
     width: 6vw;
