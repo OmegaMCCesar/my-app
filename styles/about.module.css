@@ -5,26 +5,42 @@
   align-items: center;
   text-align: center;
   padding: 2vh;
+  margin: 3vh 0 3vh 0;
+  height: 50%;
 }
 
 .container{
-  border: 0.2vw solid #094293;
   border-radius: 1vw;
   color: white;
-  background-color: #094293;
   margin: 1vw;
-  height: 15vh;
 }
 
 
 .title{
   color:white;
   margin: 2vh;
+  height: 100%;
+  border-radius: 2vh;
+  background-color: #094293;
 }
 
 .ico{
-  border: 0.8vh solid #094293;
+  border: 0.8vh solid #098e93;
   border-radius: 5vh;
-  width: 25vw;
+  width: 10%;
   margin-bottom: 2vh;
+}
+
+@media screen and (max-width:600px) {
+  .title{
+    padding: 2vh;
+    height: 100%;
+  }
+
+  .ico{
+    border: 0.8vh solid #098e93;
+    border-radius: 5vh;
+    width: 40%;
+    margin-bottom: 2vh;
+  }
 }
