@@ -3,6 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding: 2vh;
 }
 
 .container{
@@ -14,8 +16,10 @@
   height: 15vh;
 }
 
+
 .title{
   color:white;
+  margin: 2vh;
 }
 
 .ico{

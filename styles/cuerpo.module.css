@@ -1,8 +1,46 @@
 .anuncios{
-  border: 0.8vh solid #094293;
-  width: 60%;
-  height: 30vh;
+  width: 50%;
   margin-bottom: 2vh;
-  border-radius: 50%;
   padding:2vh;
+  border-radius: 2vh;
+}
+
+.garantia{
+  border-radius: 2vh;
+ border: 0.7vh solid #095793;
+}
+
+.medios_pago{
+  border-radius: 2vh;
+  border: 0.7vh solid #095793;
+  padding: 2vh;
+  margin: 1vh 0 1vh 0;
+}
+
+.title{
+  font-size: 10vh;
+}
+
+.text{
+  font-size: 4vh;
+}
+
+.pago{
+  width: 4vh;
+  margin: 0 1vh 0 1vh;
+}
+
+@media screen and (max-width:600px){
+  .title{
+    font-size: 5vh;
+  }
+
+  .text{
+    font-size: 2.8vh;
+  }
+
+  .anuncios{
+    margin: 2vh;
+    width: 95%;
+  }
 }

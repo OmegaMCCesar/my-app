@@ -22,6 +22,11 @@ a{
   text-align: center;
 }
 
+li{
+  font-size: 4vh;
+  margin: 1vh 0 1vh 0;
+}
+
 header {
   background-color:#094293;
   padding: 1vw;
@@ -47,5 +52,9 @@ footer{
     font-size: 6vh;
   }
 
+
+  li{
+    font-size: 3vh;
+  }
 }
 
