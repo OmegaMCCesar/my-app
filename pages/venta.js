@@ -1,3 +1,6 @@
 export default function Venta(){
-  return <h1>venta</h1>
+  return <div>
+    <h1>Compra y venta</h1>
+    
+  </div> 
 }

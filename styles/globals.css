@@ -56,5 +56,12 @@ footer{
   li{
     font-size: 3vh;
   }
+
+  p{
+    color: #094293;
+    border: 0.5vh solid #094293;
+    border-radius: 2vh;
+    width: 98%;
+  }
 }
 

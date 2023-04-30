@@ -1,0 +1,16 @@
+.container{
+  border: 0.2vh solid #181ba2;
+  align-items:center ;
+  align-content: center;
+  text-align: center;
+}
+
+
+@media screen and (max-width:600px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+}
