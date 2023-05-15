@@ -124,14 +124,6 @@
 
 .mavesOn{
  display: none;
- align-items: center;
- flex-direction: column;
- background-color: transparent;
- color: none;
- width: 1vw;
- height: 1%;
- position: absolute;
- margin-top: 11.2vh;
 }
 
 .mavesOff{
@@ -139,7 +131,7 @@
   align-items: center;
   flex-direction: column;
   background-color:#094293;
-  width: 67vw;
+  width: 98%;
   height: 54vh;
   position: absolute;
   margin-top: 11.2vh;
