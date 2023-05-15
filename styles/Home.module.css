@@ -11,6 +11,10 @@
   justify-content: flex-end;
 }
 
+.navs{
+  display: flex;
+}
+
 
 .imgLogo{
   width: 8vw;
@@ -32,7 +36,18 @@
   font-size: 4vw;
 }
 
-.maves{
+.mavesOn{
+  background-color:#094293;
+  border: 0.2vh solid black;
+  height: 2.8vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+}
+
+.mavesOff{
   background-color:#094293;
   border: 0.2vh solid black;
   height: 2.8vw;
@@ -75,6 +90,7 @@
   margin-top: 2vh;
 }
 
+
 @media screen and (max-width:600px){
 
 .container_logo_name{
@@ -105,25 +121,34 @@
   margin: 1vh 0 3vh 0;
 }
 
-.maves{
-  border: 0.2vh solid white;
-  border-radius: 1vh;
-  flex-direction: column;
+
+.mavesOn{
+ display: none;
+ align-items: center;
+ flex-direction: column;
+ background-color: transparent;
+ color: none;
+ width: 1vw;
+ height: 1%;
+ position: absolute;
+ margin-top: 11.2vh;
+}
+
+.mavesOff{
+  display: flex;
   align-items: center;
-  height: 8vh;
-  width: 90%;
-  text-align: center;
-  justify-content: start;
-overflow-y: scroll;
+  flex-direction: column;
+  background-color:#094293;
+  width: 67vw;
+  height: 54vh;
+  position: absolute;
+  margin-top: 11.2vh;
+  border: solid 1px white;
+  border-radius: 2vh;
+ }
+
+.contenedor_nav{
+  display: flex;
+  flex-direction: column;
 }
-
-.maves::-webkit-scrollbar{
-  width: 2vh;
-  }
-
-.maves::-webkit-scrollbar-thumb{
-  background-color: #ffffff;
-  border-radius: 1vh;
-}
-
 }

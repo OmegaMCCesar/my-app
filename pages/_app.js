@@ -3,9 +3,17 @@ import '@/styles/globals.css'
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/footer.module.css'
+import { useState } from 'react'
+
 
 
 export default function App({ Component, pageProps }) {
+
+const [menu, setMenu] = useState(true)
+
+const menuDespegable = () => {
+  setMenu(!menu)
+ }
   return <>
    <Head>
         <title>OmegaMC</title>
@@ -17,7 +25,8 @@ export default function App({ Component, pageProps }) {
         <Link href='/'>
          Omega MC
         </Link>
-           <Navbar />
+        <button  onClick={menuDespegable}>menu</button>
+           <Navbar menu={menu} setMenu={setMenu}/>
         </header>
   <Component {...pageProps} />
         <footer>

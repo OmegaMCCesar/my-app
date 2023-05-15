@@ -10,6 +10,13 @@ body {
   margin: 0;
 }
 
+button{
+  color:transparent;
+  background-color:transparent;
+  border: transparent;
+  position: absolute;
+}
+
 body {
   background-color: white;
   color: black;
@@ -47,7 +54,15 @@ footer{
     align-items: center;
   }
 
-
+  button {
+    background-color: #094293;
+    color: white;
+    position: relative;
+    font-size: 2.5vh;
+    border: solid 2px white;
+    border-radius: 1vh;
+  }
+ 
  a{
     font-size: 6vh;
   }
