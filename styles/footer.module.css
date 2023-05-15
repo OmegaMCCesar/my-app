@@ -1,13 +1,17 @@
 .icon{
   border-radius: 0.2vw;
   width: 2vw;
-  height: 7vh;
+  height: 4vh;
   margin-right: 0.4vw;
+  margin-top: 2.6vh;
 }
 
 .sn{
-  font-size: 3vh;
+  font-size: 4vh;
+  margin-top: 1vh;
 }
+
+
 
 .wnumero{
   display: flex;
@@ -29,6 +33,6 @@
   .sn{
     height: 4vh;
     width: 22vh;
-    font-size: 2vh;
+    font-size: 3vh;
   }
 }

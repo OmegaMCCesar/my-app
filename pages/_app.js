@@ -25,13 +25,13 @@ const menuDespegable = () => {
         <Link href='/'>
          Omega MC
         </Link>
-        <button  onClick={menuDespegable}>menu</button>
+        <button  onClick={menuDespegable}>Menu</button>
            <Navbar menu={menu} setMenu={setMenu}/>
         </header>
   <Component {...pageProps} />
         <footer>
           <Link href='/about' className={styles.sn}>Sobre nosotros</Link>
-          <div className={styles.whats}>
+          <Link href='/' className={styles.sn}>Home</Link>
             <div className={styles.wnumero}>
             <img src='/whats.ico' className={styles.icon}/>
             <h3>56 32 89 02 91</h3>
@@ -40,7 +40,6 @@ const menuDespegable = () => {
             <img src='/whats.ico' className={styles.icon}/>
              <h3>56 18 80 19 42</h3>
             </div>
-          </div>
         </footer> 
   </>
 }

@@ -45,7 +45,9 @@ footer{
   background-color: #094293;
   display: flex;
   justify-content: space-around;
+  color: white;
 }
+
 
 @media screen and (max-width:600px){
   header{
@@ -77,6 +79,17 @@ footer{
     border: 0.5vh solid #094293;
     border-radius: 2vh;
     width: 98%;
+  }
+
+  h3 {
+    font-size: 100%;
+    color: white;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    
   }
 }
 
