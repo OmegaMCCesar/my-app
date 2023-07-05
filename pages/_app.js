@@ -34,7 +34,7 @@ const menuDespegable = () => {
           <Link href='/' className={styles.sn}>Home</Link>
             <div className={styles.wnumero}>
             <img src='/whats.ico' className={styles.icon}/>
-            <h3>56 32 89 02 91</h3>
+            <h3>56 26 88 57 26</h3>
             </div>
             <div className={styles.wnumero}>
             <img src='/whats.ico' className={styles.icon}/>
