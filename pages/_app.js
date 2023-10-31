@@ -30,8 +30,11 @@ const menuDespegable = () => {
         </header>
   <Component {...pageProps} />
         <footer>
+          <div className={styles.footerr}>
           <Link href='/about' className={styles.sn}>Sobre nosotros</Link>
           <Link href='/' className={styles.sn}>Home</Link>
+          </div>
+          <div>
             <div className={styles.wnumero}>
             <img src='/whats.ico' className={styles.icon}/>
             <h3>56 26 88 57 26</h3>
@@ -40,6 +43,10 @@ const menuDespegable = () => {
             <img src='/whats.ico' className={styles.icon}/>
              <h3>56 18 80 19 42</h3>
             </div>
+          </div>
+            <img src='/insta.ico' className={styles.icon}/> 
+            <img src='/Facebook.ico' className={styles.icon}/>
+            <h4>E-mail: omegamcconcatco@hotmail.com</h4>
         </footer> 
   </>
 }

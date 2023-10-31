@@ -11,7 +11,11 @@
   margin-top: 1vh;
 }
 
-
+.footerr{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
 
 .wnumero{
   display: flex;

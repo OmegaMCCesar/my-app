@@ -27,6 +27,7 @@ a{
   text-decoration: none;
   color:white;
   text-align: center;
+  width: 100%;
 }
 
 li{
@@ -42,9 +43,11 @@ header {
 }
 
 footer{
-  background-color: #094293;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  background-color: #094293;
+  align-items: center;
+  justify-content: space-evenly;
   color: white;
 }
 
