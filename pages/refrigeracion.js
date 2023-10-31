@@ -1,12 +1,14 @@
+import styles from '../styles/refrigeracion.module.css'
+
 export default function Refri (){
-  return <div>
-    <h1>Refrigeracion</h1>
-    <h4>Refrigeracion comercial</h4>
-    <h5>Vitrinas</h5>
-    <h5>Conservadores</h5>
-    <h5>Congeladores</h5>
-    <h5>Vitrinas verticales</h5>
-    <p>Precio preferencial a cremerias, tiendas, carnicerias</p>
-    <h4>Refrigeracion domestica</h4>
+  return <div className={styles.contenedor}>
+    <h1 className={styles.refrigeracion_data}>Refrigeracion</h1>
+    <h2 className={styles.refrigeracion_data}>Refrigeracion comercial</h2>
+    <h4 className={styles.refrigeracion_data}>Costo de mantenimiento preventivo: $ 800.00 pesos</h4>
+    <h5 className={styles.refrigeracion_data}>Vitrinas</h5>
+    <h5 className={styles.refrigeracion_data}>Conservadores</h5>
+    <h5 className={styles.refrigeracion_data}>Congeladores</h5>
+    <h5 className={styles.refrigeracion_data}>Vitrinas verticales</h5>
+    <h4 className={styles.refrigeracion_data}>Refrigeracion domestica</h4>
   </div> 
 }

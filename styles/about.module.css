@@ -5,11 +5,12 @@
   align-items: center;
   text-align: center;
   padding: 2vh;
-  margin: 3vh 0 3vh 0;
+  margin: 3vh 0 ;
   height: 50%;
 }
 
 .container{
+  width: 80%;
   border-radius: 1vw;
   color: white;
   margin: 1vw;
@@ -19,6 +20,17 @@
 .title{
   color:white;
   margin: 2vh;
+  height: 100%;
+  border-radius: 2vh;
+  background-color: #094293;
+}
+
+
+
+.slogan{
+  width: 40%;
+  color:white;
+  margin: 2vh auto;
   height: 100%;
   border-radius: 2vh;
   background-color: #094293;

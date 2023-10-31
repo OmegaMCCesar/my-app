@@ -13,6 +13,7 @@ export default function Services () {
     <h3>Mantenimeinto</h3>
     <p>Servicio de mantenimiento preventivo.</p>
     <h3>Reparacion</h3>
+    <h2>Precios Fijos</h2>
     <p>Servicio correctivo, refacciones originales.</p>
     <h3>Instalacion</h3>
     </div>
