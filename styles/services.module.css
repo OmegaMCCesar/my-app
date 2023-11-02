@@ -9,7 +9,8 @@
   border-radius: 1vh;
   border: #094293 1px solid;
   color: #094293;
-  width: 60%;
+  width: 50%;
+  margin: 1vh auto;
 }
 
 .AppClientesOmega:hover{
