@@ -7,13 +7,14 @@
 
 .AppClientesOmega{
   border-radius: 1vh;
-  border: #181ba2 1px solid;
-  color: #181ba2;
+  border: #094293 1px solid;
+  color: #094293;
+  width: 60%;
 }
 
 .AppClientesOmega:hover{
   color: white;
-  background-color: #181ba2;
+  background-color: #094293;
 }
 
 
