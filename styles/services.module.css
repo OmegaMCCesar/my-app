@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+.AppClientesOmega{
+  border-radius: 1vh;
+  border: #181ba2 1px solid;
+  color: #181ba2;
+}
+
+.AppClientesOmega:hover{
+  color: white;
+  background-color: #181ba2;
+}
+
 
 @media screen and (max-width:600px){
   .container{
