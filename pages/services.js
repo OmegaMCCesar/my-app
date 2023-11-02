@@ -4,7 +4,7 @@ import styles from '../styles/services.module.css'
 export default function Services () {
   return <div className={styles.container}>
     <div >
-      <a target='_blank' href='https://app-clientes-omega.vercel.app'><h1 className='AppClientesOmega'>Agende una cita aqui</h1></a>
+      <a target='_blank' href='https://app-clientes-omega.vercel.app'><h1 className={styles.AppClientesOmega}>Agende una cita aqui</h1></a>
      <h1>Garantia por escrito</h1>
      <h2>Toda reparacion tiene 6 meses de garantia</h2>
     </div>
