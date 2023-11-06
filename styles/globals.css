@@ -51,6 +51,11 @@ footer{
   color: white;
 }
 
+footer > a{
+  width: 5vh;
+}
+
+
 
 @media screen and (max-width:600px){
   header{

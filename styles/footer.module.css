@@ -6,6 +6,12 @@
   margin-top: 2.6vh;
 }
 
+.iconn{
+  border-radius: 0.2vw;
+  width: 4vw;
+  margin: 0;
+}
+
 .sn{
   font-size: 4vh;
   margin-top: 1vh;

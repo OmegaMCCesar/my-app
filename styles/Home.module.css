@@ -36,6 +36,24 @@
   font-size: 4vw;
 }
 
+.agenda_cita{
+  margin: 1vh auto;
+  color: red;
+  background-color: yellow;
+  padding: 1vh;
+  border-radius: 1vh;
+}
+
+.agenda_cita_a{
+ width: 50%;
+}
+
+.agenda_cita:hover{
+  color: yellow;
+  background-color: red;
+  cursor: pointer;
+}
+
 .mavesOn{
   background-color:#094293;
   border: 0.2vh solid black;

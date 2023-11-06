@@ -44,9 +44,9 @@ const menuDespegable = () => {
              <h3>56 18 80 19 42</h3>
             </div>
           </div>
-            <a href='https://instagram.com/omegamc.1?igshid=MzMyNGUyNmU2YQ==' target='_blanck'><img src='/insta.ico' className={styles.icon}/></a>
-            <a href='https://www.facebook.com/profile.php?id=61552902452992' target='_blanck'><img src='/Facebook.ico' className={styles.icon}/></a>
             <h4>E-mail: omegamcconcatco@hotmail.com</h4>
+            <a href='https://instagram.com/omegamc.1?igshid=MzMyNGUyNmU2YQ==' target='_blanck'><img src='/insta.ico' className={styles.iconn}/></a>
+            <a href='https://www.facebook.com/profile.php?id=61552902452992' target='_blanck'><img src='/Facebook.ico' className={styles.iconn}/></a>
         </footer> 
   </>
 }

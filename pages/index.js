@@ -14,7 +14,8 @@ export default function Home() {
        <div className={styles.marcas}>
       <Marcas />
     </div>
-    <div className={styles.container_logo_name}>
+     <a target='_blanck' href='https://app-clientes-omega.vercel.app' className={styles.agenda_cita_a}><h1 className={styles.agenda_cita}>Agenda tu cita haciendo clik aqui</h1></a>
+     <div className={styles.container_logo_name}>
      <h1 className={styles.title}>
       Omega MC
      </h1>
