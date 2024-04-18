@@ -5,10 +5,31 @@
  align-items: center;
 }
 
-.container_logo_name{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+.carrucel{
+ width: 50%;
+ height:50vh;
+ border-radius: 2vh;
+ background-color: #094293;
+ margin: 50px auto 0;
+ overflow: hidden;
+}
+
+.ulcarrucel{
+ display: flex;
+ width: 400%;
+ padding: 0;
+}
+
+.licarrucel{
+ list-style: none;
+ width: 100%;
+ margin: 2vh;
+
+}
+
+.imgcarrucel{
+  width: 100%;
+  border-radius: 2vh;
 }
 
 .navs{
@@ -108,13 +129,7 @@
   margin-top: 2vh;
 }
 
-
 @media screen and (max-width:600px){
-
-.container_logo_name{
-  display: flex;
-  flex-direction: column;
-}
 
 .marcas{
   margin: 1vh;

@@ -39,10 +39,6 @@ const menuDespegable = () => {
             <img src='/whats.ico' className={styles.icon}/>
             <h3>56 26 88 57 26</h3>
             </div>
-            <div className={styles.wnumero}>
-            <img src='/whats.ico' className={styles.icon}/>
-             <h3>56 18 80 19 42</h3>
-            </div>
           </div>
             <h4>E-mail: omegamcconcatco@hotmail.com</h4>
             <a href='https://instagram.com/omegamc.1?igshid=MzMyNGUyNmU2YQ==' target='_blanck'><img src='/insta.ico' className={styles.iconn}/></a>
