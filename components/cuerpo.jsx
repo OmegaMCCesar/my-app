@@ -10,7 +10,7 @@ const Cuerpo = () => {
     </div>
     <div className={styles.medios_pago}>
       <h1>Metodos de pago</h1>
-      <ul>
+      <ul className={styles.metodospago}>
         <li>Efectivo<img src='./efectivo.png' alt='efectivo' className={styles.pago} /></li>
         <li>Transferencia<img src='./transferencia.png' alt='trasnferencia' className={styles.pago} /></li>
         <li>Tarjeta Credito/Debito <img src='./masCard.png' alt='mastercard' className={styles.pago}/><img src='./visa.png' alt='visa' className={styles.pago}/></li>
