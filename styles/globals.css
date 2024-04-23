@@ -42,6 +42,14 @@ header {
   color: rgb(201, 194, 194);
 }
 
+header>a{
+  margin: 2vh auto;
+}
+
+header>button{
+  margin-bottom: 1vh;
+}
+
 footer{
   display: flex;
   flex-direction: row;
@@ -71,8 +79,15 @@ footer > a{
     font-size: 3vh;
     border: solid 2px white;
     border-radius: 1vh;
+    padding:1vh 2vh;
+    width: 100%;
+    font-size: 5vh;
   }
  
+  header>a{
+    font-size: 10vh;
+  }
+
  a{
     font-size: 6vh;
   }

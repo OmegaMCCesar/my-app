@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Marcas from '@/components/marcas'
 import Cuerpo from '@/components/cuerpo'
 
+
 const lav1 = '/lav1.ico'
 const lav2 = '/lav2.ico'
 const lav3 = '/lav3.ico'

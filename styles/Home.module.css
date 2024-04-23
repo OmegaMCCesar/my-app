@@ -12,6 +12,10 @@
   overflow: hidden;
 }
 
+.slidermenu{
+  display: none;
+}
+
 .slider_track{
  display: flex;
  animation: scroll 40s linear infinite;
@@ -126,13 +130,14 @@
 
 .mavesOff{
   background-color:#094293;
-  border: 0.2vh solid black;
-  height: 2.8vw;
+  border: 0.2vh solid rgb(255, 255, 255);
+  height:2.8vw;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
   text-align: center;
+  z-index: 2;
+  border-radius: 2vh;
 }
 
 

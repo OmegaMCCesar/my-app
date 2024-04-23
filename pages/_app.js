@@ -22,7 +22,7 @@ const menuDespegable = () => {
         <link rel="icon" href="/Omega.ico" />
       </Head>
       <header>
-        <Link href='/'>
+        <Link  href='/'>
          Omega MC
         </Link>
         <button  onClick={menuDespegable}>Menu</button>

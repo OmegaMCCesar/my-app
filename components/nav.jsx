@@ -8,7 +8,7 @@ import {GiWashingMachine,GiThermometerCold,GiBlender,GiPuzzle} from 'react-icons
 const Navbar = ({menu, setMenu}) => {
   return <div className={menu===true ? styles.mavesOn: styles.mavesOff}>
 <Link href='/' className={styles.links} onClick={() => setMenu(!menu)}>Home<BiHomeAlt/></Link>   
-<Link href='/about' onClick={() => setMenu(!menu)} className={styles.links} >Sobre Nosotros<img src='/Omega.ico' className={styles.ico}/></Link>
+<Link href='/about' onClick={() => setMenu(!menu)} className={styles.links} >Sobre Nosotros</Link>
 <Link href='/services' onClick={() => setMenu(!menu)} className={styles.links}>Servicios <FaTools /></Link> 
 <Link href='/refrigeracion' onClick={() => setMenu(!menu)} className={styles.links}>Refrigeracion<BiFridge/></Link>
 <Link href='/lavado' onClick={() => setMenu(!menu)} className={styles.links}>Lavado<GiWashingMachine/></Link>
