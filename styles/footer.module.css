@@ -40,6 +40,16 @@
     width: 6vw;
     margin-top: 2.2vh;
   }
+
+  .logoWhatss{
+    margin-left: 2vh;
+    width: 8vh;
+    border-radius: 2.5vh;
+  }
+  
+ .numeroWhatss{
+  width: 8vh;
+ }
   .sn{
     height: 4vh;
     width: 22vh;

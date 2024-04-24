@@ -27,6 +27,13 @@ const menuDespegable = () => {
         </Link>
         <button  onClick={menuDespegable}>Menu</button>
            <Navbar menu={menu} setMenu={setMenu}/>
+           <div className={styles.wnumero}>
+            <h3>56 26 88 57 26</h3>
+            <a className={styles.numeroWhatss} href="tel:5626885726"><img src='/whats.ico' className={styles.logoWhatss}/></a>
+            
+            </div>
+           <a href='https://www.instagram.com/omegamcoficial/' target='_blanck'><img src='/insta.ico' className={styles.iconn}/></a>
+            <a href='https://www.facebook.com/OmegaMCOficial' target='_blanck'><img src='/Facebook.ico' className={styles.iconn}/></a>
         </header>
   <Component {...pageProps} />
         <footer>
@@ -34,15 +41,7 @@ const menuDespegable = () => {
           <Link href='/about' className={styles.sn}>Sobre nosotros</Link>
           <Link href='/' className={styles.sn}>Home</Link>
           </div>
-          <div>
-            <div className={styles.wnumero}>
-            <img src='/whats.ico' className={styles.icon}/>
-            <h3>56 26 88 57 26</h3>
-            </div>
-          </div>
-            <h4>E-mail: omegamcconcatco@hotmail.com</h4>
-            <a href='https://www.instagram.com/omegamcoficial/' target='_blanck'><img src='/insta.ico' className={styles.iconn}/></a>
-            <a href='https://www.facebook.com/OmegaMCOficial' target='_blanck'><img src='/Facebook.ico' className={styles.iconn}/></a>
+            {/*<h4>E-mail: omegamcconcatco@hotmail.com</h4>*/}
         </footer> 
   </>
 }

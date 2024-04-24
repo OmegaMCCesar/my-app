@@ -88,6 +88,18 @@ footer > a{
     font-size: 10vh;
   }
 
+  header>div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 1vh;
+  }
+
+  header>div>h3{
+    margin:1vh 2vh;
+    font-size: 7vh;
+  }
+
  a{
     font-size: 6vh;
   }
