@@ -27,7 +27,6 @@ a{
   text-decoration: none;
   color:white;
   text-align: center;
-  width: 100%;
 }
 
 li{
@@ -85,7 +84,9 @@ footer > a{
   }
  
   header>a{
-    font-size: 10vh;
+    font-size: 8vh;
+    margin: 1vh 2vh;
+    border-radius: 0;
   }
 
   header>div{
@@ -98,10 +99,6 @@ footer > a{
   header>div>h3{
     margin:1vh 2vh;
     font-size: 7vh;
-  }
-
- a{
-    font-size: 6vh;
   }
 
 
