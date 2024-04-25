@@ -50,6 +50,11 @@
   .logosfaceinsta{
     width: 8vh;
   }
+
+  .redesSocialesContainer{
+    justify-content: space-between;
+    width: 50%;
+  }
   
  .numeroWhatss{
   width: 8vh;

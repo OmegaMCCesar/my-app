@@ -32,7 +32,7 @@ const menuDespegable = () => {
             <a className={styles.numeroWhatss} href="tel:5626885726"><img src='/whats.ico' className={styles.logoWhatss}/></a>
             
             </div>
-            <div>
+            <div className={styles.redesSocialesContainer}>
            <a href='https://www.instagram.com/omegamcoficial/' target='_blanck'><img src='/insta.ico' className={styles.logosfaceinsta} /></a>
             <a href='https://www.facebook.com/OmegaMCOficial' target='_blanck'><img src='/Facebook.ico' className={styles.logosfaceinsta}/></a>
             </div>
