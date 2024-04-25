@@ -29,8 +29,7 @@ const menuDespegable = () => {
            <Navbar menu={menu} setMenu={setMenu}/>
            <div className={styles.wnumero}>
             <h3>56 26 88 57 26</h3>
-            <a className={styles.numeroWhatss} href="tel:5626885726"><img src='/whats.ico' className={styles.logoWhatss}/></a>
-            
+            <a className={styles.numeroWhatss} href="tel:5626885726"><img src='/whats.ico' className={styles.logoWhatss}/></a>       
             </div>
             <div className={styles.redesSocialesContainer}>
            <a href='https://www.instagram.com/omegamcoficial/' target='_blanck'><img src='/insta.ico' className={styles.logosfaceinsta} /></a>

@@ -25,6 +25,7 @@
 
 .wnumero{
   display: flex;
+  width: 100%;
 }
 
 .whats{
@@ -32,6 +33,12 @@
   flex-direction: column;
   color: white;
   padding: 0.2vw;
+}
+
+.logoWhatss{
+  width: 5vh;
+  height: 5vh;
+  border-radius: 1.5vh;
 }
 
 @media screen and (max-width:500px){
@@ -42,7 +49,7 @@
   }
 
   .logoWhatss{
-    margin-left: 2vh;
+    margin-left: 1vh;
     width: 8vh;
     border-radius: 2.5vh;
   }
@@ -63,5 +70,11 @@
     height: 4vh;
     width: 22vh;
     font-size: 3vh;
+    text-align: justify;
+    margin: 0 2vh;
+  }
+
+  .footerr{
+    width: 100%;
   }
 }

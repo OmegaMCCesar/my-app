@@ -20,7 +20,6 @@ button{
 body {
   background-color: white;
   color: black;
-
 }
 
 a{
@@ -51,11 +50,13 @@ header>button{
 
 footer{
   display: flex;
+  text-align: start;
   flex-direction: row;
   background-color: #094293;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   color: white;
+  width: 100%;
 }
 
 footer > a{
@@ -72,15 +73,21 @@ footer > a{
   }
 
   button {
-    background-color: #094293;
-    color: white;
+    background-color: hsl(215, 100%, 83%);
+    color: #094293;
     position: relative;
     font-size: 3vh;
-    border: solid 2px white;
+    border: solid 2px #ffffff;
     border-radius: 1vh;
     padding:1vh 2vh;
     width: 100%;
     font-size: 5vh;
+  }
+
+  button:hover{
+    background-color: #094293;
+    color: white;
+    border: solid 2px white;
   }
  
   header>a{
@@ -120,7 +127,7 @@ footer > a{
 
   footer {
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
     
   }
 }
