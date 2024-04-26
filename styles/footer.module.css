@@ -6,6 +6,20 @@
   margin-top: 2.6vh;
 }
 
+.numberW{
+  margin: 0;
+  color: white;
+}
+
+.logosfaceinsta{
+  width: 5vh;
+}
+
+.redesSocialesContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .iconn{
   border-radius: 0.2vw;
   width: 4vw;
@@ -25,7 +39,9 @@
 
 .wnumero{
   display: flex;
+  padding: 1vh;
   width: 100%;
+  justify-content: space-evenly;
 }
 
 .whats{
@@ -37,7 +53,6 @@
 
 .logoWhatss{
   width: 5vh;
-  height: 5vh;
   border-radius: 1.5vh;
 }
 
@@ -49,7 +64,6 @@
   }
 
   .logoWhatss{
-    margin-left: 1vh;
     width: 8vh;
     border-radius: 2.5vh;
   }
@@ -59,8 +73,8 @@
   }
 
   .redesSocialesContainer{
-    justify-content: space-between;
-    width: 50%;
+    justify-content: space-around;
+    width: 80%;
   }
   
  .numeroWhatss{

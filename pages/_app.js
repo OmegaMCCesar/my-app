@@ -28,10 +28,10 @@ const menuDespegable = () => {
         <button  onClick={menuDespegable}>Menu</button>
            <Navbar menu={menu} setMenu={setMenu}/>
            <div className={styles.wnumero}>
-            <h3>56 26 88 57 26</h3>
-            <a className={styles.numeroWhatss} href="tel:5626885726"><img src='/whats.ico' className={styles.logoWhatss}/></a>       
+            <h3 className={styles.numberW} >Tel: 56 26 88 57 26</h3>       
             </div>
             <div className={styles.redesSocialesContainer}>
+            <a className={styles.numeroWhatss} href="tel:5626885726"><img src='/whats.ico' className={styles.logoWhatss}/></a>
            <a href='https://www.instagram.com/omegamcoficial/' target='_blanck'><img src='/insta.ico' className={styles.logosfaceinsta} /></a>
             <a href='https://www.facebook.com/OmegaMCOficial' target='_blanck'><img src='/Facebook.ico' className={styles.logosfaceinsta}/></a>
             </div>
