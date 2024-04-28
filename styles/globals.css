@@ -118,7 +118,10 @@ footer > a{
     border: 0.5vh solid #094293;
     border-radius: 2vh;
     width: 98%;
+    padding: 1vh;
+    font-size: larger;
   }
+
 
   h3 {
     font-size: 100%;

@@ -3,10 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 2vh;
+  padding: 0.5vh;
   margin: 3vh 0 ;
-  height: 50%;
 }
 
 .container{
@@ -46,9 +44,17 @@
 }
 
 @media screen and (max-width:600px) {
+
+.principal_container{
+  padding: 0.5vh;
+  width: 99%;
+  margin: 0;
+}
+
   .title{
-    padding: 2vh;
-    height: 100%;
+    padding: 1vh;
+    width: 100%;
+    margin: 1vh;
   }
 
   .ico{
@@ -56,5 +62,16 @@
     border-radius: 5vh;
     width: 40%;
     margin-bottom: 2vh;
+  }
+
+  .container{
+    width: 95%;
+  }
+
+  .slogan{
+    width: 100%;
+    border-radius: 1vh;
+    padding: 0.5vh;
+    margin: 1vh auto;
   }
 }
