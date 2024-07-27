@@ -1,5 +1,6 @@
 .principal_container{
   display: flex;
+  background-color: white;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -9,13 +10,18 @@
 
 .container{
   display: flex;
+  border: solid 0.6vh hsl(182, 98%, 30%);
   flex-direction: column;
   width: 80%;
   border-radius: 1vw;
-  color: white;
+  color: hsl(182, 98%, 30%);
   margin: 1vw;
   align-items: center;
+  font-size: 3vh;
+  padding: 2vh;
+  background-color: white;
 }
+
 
 
 .title{
@@ -30,10 +36,12 @@
 
 .slogan{
   width: 40%;
-  color:white;
+  color:hsl(182, 98%, 30%);
   height: 100%;
   border-radius: 2vh;
-  background-color: #094293;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 6vh;
 }
 
 .ico{

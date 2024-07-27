@@ -9,11 +9,11 @@ export default function About () {
         Establecindo precios y metodologias de servicio, para que ambas partes se sientan de manera conforme.<br/>
         Dando total claridad y conocimiento de los servicios al cliente.
       </p>
-       <h1 className={styles.title}>Empresa mexicana comprometida con sus clientes, brindando el mejor servicio en refrigeracion, linea blanca y electrodomesticos.</h1>
+       <p>Empresa mexicana comprometida con sus clientes, brindando el mejor servicio en refrigeracion, linea blanca y electrodomesticos.</p>
        <img src='/Omega.ico' className={styles.ico}/>
 
        <div className={styles.container}>
-       <h1 className={styles.slogan}>Servir para servir.</h1>
+       <p className={styles.slogan}  >Servir para servir.</p>
        </div>
      </div>
   </div>

@@ -7,8 +7,8 @@
 
 .AppClientesOmega{
   border-radius: 1vh;
-  border: #094293 1px solid;
-  color: #094293;
+  border: hsla(182, 98%, 30%, 0.885) 1px solid;
+  color: hsl(182, 98%, 30%);
   width: 50%;
   margin: 1vh auto;
 }
@@ -16,6 +16,30 @@
 .AppClientesOmega:hover{
   color: white;
   background-color: #094293;
+}
+
+.h3Ul{
+  width: 45.6%;
+  background-color: white;
+  color: #181ba2;
+  margin: 0.5vh auto;
+  border-radius: 1vh;
+  border: solid 0.6vh #181ba2;
+}
+
+.uListServices{
+  background-color: white;
+  color: hsl(182, 98%, 30%);
+  width: 40%;
+  border: solid 0.6vh hsl(182, 98%, 30%);
+  border-radius: 1vh;
+  margin: 0 auto;
+  text-align: justify;
+  padding:2vh 6vh;
+}
+
+.uListServices > li{
+  font-size: 3vh;
 }
 
 

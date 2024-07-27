@@ -1,0 +1,22 @@
+.containerPrincipal{
+  display: flex;
+  justify-content: space-between;
+}
+
+.producto{
+  margin: 2vh 2vh;
+  border: 1px solid blue;
+  width: 25%;
+  padding: 2vh;
+  text-align: center;
+}
+
+.img{
+  margin: 1vh auto;
+  width: 20vh;
+}
+
+
+.link{
+  color: black;
+}
