@@ -1,17 +1,18 @@
 .containerPrincipal{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .producto{
   margin: 2vh 2vh;
-  border: 1px solid blue;
   width: 15%;
   height: 40vh;
   padding: 2vh;
   text-align: center;
   border-radius: 1vh;
-  background-color: rgba(242, 241, 241, 0.878);
+  background-color: rgba(255, 255, 255, 0.878);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .producto:hover{
@@ -52,5 +53,25 @@
   color: hsl(182, 98%, 30%);
   background-color: white;
   border: solid 1px hsl(182, 98%, 30%);
+}
+
+@media screen and (max-width:600px){
+
+  .producto{
+    width: 35%;
+    height: 30vh;
+    margin: 1vh auto;
+  }
+
+  .infoProduct > h3,.infoProduct > h4{
+    margin: 1vh auto;
+    height: 1.6vh;
+    font-size: 1.6vh;
+    color: black;
+ }
+
+ .img{
+  margin: 0 auto;
+ }
 }
 

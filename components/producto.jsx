@@ -2,11 +2,27 @@ import styles from '../styles/productos.module.css'
 
 const productos = [
   {
+    name:'Kit relay 12mf Arranque refrigerador',
+    marca:'Generico',
+    precio: 155,
+    img:'https://http2.mlstatic.com/D_NQ_NP_613896-MLM73040994685_112023-O.webp',
+    estado:'nuevo',
+    link:'https://mercadolibre.com/sec/26r1iWk'
+  },
+  { name:'Bomba de desague',
+    marca:'Generica',
+    precio: 249,
+    img:'https://http2.mlstatic.com/D_NQ_NP_888835-MLU73490110398_122023-O.webp',
+    estado:'nuevo',
+    link:'https://mercadolibre.com/sec/2aLAAyJ'
+  },
+  {
     name : 'Polea tensora secadora',
     marca: 'Samsung',
     precio: 399,
     img:'https://http2.mlstatic.com/D_NQ_NP_865710-MLM46401673434_062021-O.webp',
-    estado: 'nuevo'
+    estado: 'nuevo',
+    link:'https://mercadolibre.com/sec/2c4U6km'
   },{name : 'Banda 21.6',
     marca: 'Samsung',
     img:'https://http2.mlstatic.com/D_NQ_NP_608023-MLM44379912379_122020-O.webp',
@@ -29,7 +45,7 @@ const productos = [
 
  const Products = () => {
   return <div className={styles.containerPrincipal} >{ productos.map((p) => 
-    <div key={p.name} className={styles.producto}>
+    <div key={Math.random(p.name)} className={styles.producto}>
        <img className={styles.img} src={p.img} />
        <div className={styles.infoProduct}>
          <h3>{p.name}</h3>
