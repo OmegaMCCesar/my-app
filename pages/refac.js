@@ -1,7 +1,9 @@
+import Products from "@/components/producto";
+
 export default function Refac(){
   return <div>
   <h1>Refacciones</h1>
-  <p>Si no encuentra alguna pieza o refaccion, puede comunicarse con nosotros via whats app.</p>
+    <Products/> 
   </div>
   
 }

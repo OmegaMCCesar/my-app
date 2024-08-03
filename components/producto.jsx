@@ -2,13 +2,13 @@ import styles from '../styles/productos.module.css'
 
 const productos = [
   {
-    name : 'Polea lavadora',
-    marca: 'samsung',
-    precio: 500,
-    img:'https://m.media-amazon.com/images/I/61hrtpQSuML._AC_SL1500_.jpg',
+    name : 'Polea tensora secadora',
+    marca: 'Samsung',
+    precio: 399,
+    img:'https://http2.mlstatic.com/D_NQ_NP_865710-MLM46401673434_062021-O.webp',
     estado: 'nuevo'
   },{name : 'Banda 21.6',
-    marca: 'samsung',
+    marca: 'Samsung',
     img:'https://http2.mlstatic.com/D_NQ_NP_608023-MLM44379912379_122020-O.webp',
     precio: 99,
     estado:'nuevo',
@@ -19,16 +19,17 @@ const productos = [
       estado:'nuevo',
     img:'https://http2.mlstatic.com/D_NQ_NP_606865-MLM49233359528_022022-O.webp',
   link:'https://mercadolibre.com/sec/1ft9mtg'},
-      {name : 'valvulas',
-        marca: 'samsung',
-        precio: 600,
+      {name : 'Bobina valvulas de agua',
+        marca: 'Samsung',
+        precio: 195,
         estado:'nuevo',
-      img:'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR8QdFZt0GiPKXucQ0bnSqCEiWjhlIGSE4vA1d5jRT6nyrm_TBnm0WeF2Ftjx2f2W-wHVTg7R1wtyb_kta8pfSYfotlXIXFIsTqpwvcl8hcYSqB-siCL1yhU728u9Y_VSwAquIr9ZhgxQ&usqp=CAc'}
+        link:'https://mercadolibre.com/sec/1J59hHr',
+      img:'https://http2.mlstatic.com/D_NQ_NP_893943-MLM73241992773_122023-O.webp'}
  ]
 
  const Products = () => {
   return <div className={styles.containerPrincipal} >{ productos.map((p) => 
-    <div className={styles.producto}>
+    <div key={p.name} className={styles.producto}>
        <img className={styles.img} src={p.img} />
        <div className={styles.infoProduct}>
          <h3>{p.name}</h3>

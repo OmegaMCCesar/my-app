@@ -14,16 +14,22 @@
   background-color: rgba(242, 241, 241, 0.878);
 }
 
+.producto:hover{
+  width: 16%;
+  height: 41vh;
+
+}
+
 .infoProduct > h3,.infoProduct > h4{
    margin: 0.5vh auto;
    height: 4vh;
-   font-size: 80%;
+   font-size: 85%;
 }
 
 .img{
   margin: 1vh auto;
-  width: 90%;
-  height: 30%;
+  width: 70%;
+  height: 38%;
   border-radius: 1vh;
 }
 
@@ -41,3 +47,10 @@
   padding:0.5vh 3vh ;
   border-radius: 1vh;
 }
+
+.link:hover{
+  color: hsl(182, 98%, 30%);
+  background-color: white;
+  border: solid 1px hsl(182, 98%, 30%);
+}
+
