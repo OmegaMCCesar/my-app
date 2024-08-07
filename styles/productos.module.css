@@ -15,11 +15,6 @@
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.producto:hover{
-  width: 16%;
-  height: 41vh;
-
-}
 
 .infoProduct > h3,.infoProduct > h4{
    margin: 0.5vh auto;
